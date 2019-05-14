@@ -1,0 +1,17 @@
+
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m" controllerName="testui5_bind.TESTUI5_BIND"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Exercise: Create a Simple Application"> <content>
+
+	<Panel headerText="Enter Data"> <FlexBox alignItems="Center"
+		justifyContent="SpaceAround"> <items> <Label
+		text="First Name" /> <Input id="idInputFirstName" type="Text"
+		placeholder="Enter First Name..." value="{/firstName}" /> </items> </FlexBox> <FlexBox
+		alignItems="Center" justifyContent="SpaceAround"> <items>
+	<Label text="Last Name" /> <Input id="idInputLastName" type="Text"
+		placeholder="Enter Last Name..." value="{/lastName}" /> </items> </FlexBox> <FlexBox
+		alignItems="Center" justifyContent="SpaceAround"> <items>
+	<Button text="Submit" press="onButtonPressed" />
+	</items> </FlexBox> </Panel> </content> </Page>
+</core:View>
